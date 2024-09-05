@@ -43,13 +43,13 @@ function App() {
             { name: "up", keys: ["w", "W"] },
             { name: "down", keys: ["s", "S"] }
           ]}>
-          <Paddle ref={paddle1Ref} position={[-5, 0, 0]} id={"paddle1"}/>
+          <Paddle ref={paddle1Ref} position={[-7.5, 0, 0]} id={"paddle1"}/>
           </KeyboardControls>
           <KeyboardControls map = {[
             { name: "up", keys: ["ArrowUp"] },
             { name: "down", keys: ["ArrowDown"] }
           ]}>
-          <Paddle ref={paddle2Ref} position={[5, 0, 0]} id={"paddle2"}/>
+          <Paddle ref={paddle2Ref} position={[7.5, 0, 0]} id={"paddle2"}/>
           </KeyboardControls>
           <Ball ref = {ballRef}/>
           {/* Right */}
