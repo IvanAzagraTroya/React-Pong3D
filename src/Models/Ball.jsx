@@ -80,7 +80,6 @@ const Ball = forwardRef(({position, ...props}, ref) =>{
               texture= {texture}
             />
       </mesh>
-      
     )
   })
   export default Ball;
