@@ -1,5 +1,5 @@
 ### Pong 3D
-
+link: https://3dpong-sigma.vercel.app/
 - A Pong game made with the Cannon physics engine to manage the movement of the paddles and the ball with the collisions between them.
 - Using KeyboardControls to manage simultaneous presses so they don't cancel each other and let the paddles move without interruption.
 - React_three-fiber for the 3D meshes used to display the game as the main renderer.
@@ -21,3 +21,5 @@ _Im aware the ball doesn't bounce depending on where the paddle faces but on its
 - Changing the Box Mesh to a Character Mesh since its top-down view.
 - Maybe fixing the value of the bounces making all rotations positive and depending on the returned number fixing directions.
 - A useless reset button, nobody is gonna play that much.
+
+_Deployed using Vercel_
